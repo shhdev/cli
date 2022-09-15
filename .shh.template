@@ -1,0 +1,9 @@
+apiKey:
+email:
+secretKey:
+envs:
+  - fileName: dev
+    variables:
+      ENVIROMENT:
+  - filename: dev
+    slug: local
