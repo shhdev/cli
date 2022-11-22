@@ -6,8 +6,6 @@ import yaml from 'js-yaml'
 import type { ShhConfig } from '../utils/configOptions'
 
 const templateConfig = `
-apiKey:
-email:
 secretKey:
 envs:
   - fileName:
