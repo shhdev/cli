@@ -1,9 +1,7 @@
 import type { PositionalOptionsType } from 'yargs'
 
 interface GlobalConfig {
-  apiKey?: string
   cascade?: boolean
-  email?: string
   exports?: boolean
   secretKey?: string
   variables?: {
@@ -30,23 +28,11 @@ const configOptions: {
   default?: unknown
 }[] = [
   {
-    name: 'apiKey',
-    description: `User's project API key`,
-    alias: 'k',
-    type: 'string',
-  },
-  {
     name: 'cascade',
     description: 'Cascading removes duplicate key values in the output file',
     type: 'boolean',
     inputType: 'checkbox',
     default: true,
-  },
-  {
-    name: 'email',
-    description: 'User account email address',
-    alias: 'e',
-    type: 'string',
   },
   {
     name: 'exports',
