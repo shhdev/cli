@@ -1,5 +1,3 @@
-apiKey:
-email:
 secretKey:
 envs:
   - fileName: dev
